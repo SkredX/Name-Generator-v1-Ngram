@@ -31,14 +31,11 @@ Run the cells from top to bottom. The notebook will:
 
 ### 2. Using the Python Script
 From a terminal, navigate into the `Bigram Model` folder:
-'''
-cd "Bigram Model"
-'''
+`cd "Bigram Model"`
 
 Run the generator:
-'''
-python "name generator.py"
-'''
+`python "name generator.py"`
+
 
 The script will:
 - load the `names.txt` dataset

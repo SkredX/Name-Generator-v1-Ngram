@@ -4,8 +4,8 @@ This repository contains a minimal character-level N-gram Markov model for gener
 
 ## Repository Structure
 
-Simple-bigram-model--Markov-chains/
-Bigram Model/
+Simple-N-gram-model--Markov-chains/
+N-gram Model/
 
 
 n gram-name-generator.ipynb
@@ -23,15 +23,15 @@ Markov_README.txt
 ## How to Run the Model
 
 ### 1. Using the Notebook
-Open the file `Bigram Model/n gram-name-generator.ipynb` in Jupyter Notebook or JupyterLab.  
+Open the file `N-gram Model/n gram-name-generator.ipynb` in Jupyter Notebook or JupyterLab.  
 Run the cells from top to bottom. The notebook will:
 - load `names.txt`
 - compute bigram counts and conditional probabilities
 - generate new names based on the learned Markov transitions
 
 ### 2. Using the Python Script
-From a terminal, navigate into the `Bigram Model` folder:
-`cd "Bigram Model"`
+From a terminal, navigate into the `N-gram Model` folder:
+`cd "N-gram Model"`
 
 Run the generator:
 `python "name generator.py"`

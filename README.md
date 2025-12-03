@@ -1,6 +1,6 @@
 # Simple Bigram Model: Markov Chains
 
-This repository contains a minimal character-level bigram Markov model for generating realistic name-like text. The notebook `bigram-name-generator.ipynb` demonstrates how character transitions are counted, normalized into probabilities, and sampled to generate new names. The model operates using simple statistical dependencies between consecutive characters and provides an interpretable introduction to generative text modeling.
+This repository contains a minimal character-level bigram Markov model for generating realistic name-like text. The notebook `n gram-name-generator.ipynb` demonstrates how character transitions are counted, normalized into probabilities, and sampled to generate new names. The model operates using simple statistical dependencies between consecutive characters and provides an interpretable introduction to generative text modeling.
 
 ## Repository Structure
 
@@ -8,7 +8,7 @@ Simple-bigram-model--Markov-chains/
 Bigram Model/
 
 
-bigram-name-generator.ipynb
+n gram-name-generator.ipynb
 
 
 name generator.py
@@ -23,7 +23,7 @@ Markov_README.txt
 ## How to Run the Model
 
 ### 1. Using the Notebook
-Open the file `Bigram Model/bigram-name-generator.ipynb` in Jupyter Notebook or JupyterLab.  
+Open the file `Bigram Model/n gram-name-generator.ipynb` in Jupyter Notebook or JupyterLab.  
 Run the cells from top to bottom. The notebook will:
 - load `names.txt`
 - compute bigram counts and conditional probabilities
